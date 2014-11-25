@@ -12,6 +12,13 @@ body {
     color: #333333; 
     background: #ffffff;
 }
+a {
+	color: #333333;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
 
 #pageContainer {
 	position: relative;
