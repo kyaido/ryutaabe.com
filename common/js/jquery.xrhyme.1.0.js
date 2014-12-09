@@ -13,32 +13,32 @@
 
 //////////////////////////////////////////
 $(function() {
-	
-	
-	$('#floatingContents li').each(function(i){
-		if(i + 1 != $('#floatingContents li').length){
-			var anchor = '<a href="#' + (i + 1) +'" class="floatingAnchor">';
-		}
-		else{
-			var anchor = '<a href="#0" class="floatingAnchor">';
-		}
-		$(this).attr('id',i);
-		$(this).find('img:first-child').wrap(anchor);
-	});
-	
-	$(window).load(function(){
-		$('.x_container').xrhyme({
-			wheelSpeed : 0.7,
-			navigationSelector : '#floatingContents li .floatingAnchor',
-		    anchorMode : true,
-		    animationTime : 1200,
-			easing : 'easeOutExpo'
-		})
-	});
-	
-	
+  
+  
+  $('#floatingContents li').each(function(i){
+    if(i + 1 != $('#floatingContents li').length){
+      var anchor = '<a href="#' + (i + 1) +'" class="floatingAnchor">';
+    }
+    else{
+      var anchor = '<a href="#0" class="floatingAnchor">';
+    }
+    $(this).attr('id',i);
+    $(this).find('img:first-child').wrap(anchor);
+  });
+  
+  $(window).load(function(){
+    $('.x_container').xrhyme({
+      wheelSpeed : 0.7,
+      navigationSelector : '#floatingContents li .floatingAnchor',
+        anchorMode : true,
+        animationTime : 1200,
+      easing : 'easeOutExpo'
+    })
+  });
+  
+  
 
-	
+  
 });
 //////////////////////////////////////////
 
@@ -231,5 +231,5 @@ $(function() {
         });
         
     };
-	
+  
 })(jQuery);

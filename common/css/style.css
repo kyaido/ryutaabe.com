@@ -120,6 +120,8 @@ a:hover {
 /* for jquery.xrhyme.js */
 .x_wrapper {
     overflow: hidden;
+    /*overflow-x: auto;*/
+    /*-webkit-overflow-scrolling: touch;*/
 }
 
 .x_container {
