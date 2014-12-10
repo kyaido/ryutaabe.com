@@ -13,25 +13,25 @@ body {
     background: #ffffff;
 }
 a {
-	color: #333333;
-	text-decoration: underline;
+  color: #333333;
+  text-decoration: underline;
 }
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #pageContainer {
-	position: relative;
-	padding: 120px 20px 10px 50px;
+  position: relative;
+  padding: 120px 20px 10px 50px;
 }
 #header {
-	position: fixed;
-	left: 50px;
-	top: 40px;
-	width: 320px;
+  position: fixed;
+  left: 50px;
+  top: 40px;
+  width: 320px;
 }
 #contents {
-	/* padding: 0 0 0 320px; */
+  /* padding: 0 0 0 320px; */
 }
 
 
@@ -40,17 +40,17 @@ a:hover {
 /* .comingSoon
 =========================================*/
 .comingSoon {
-	margin: 100px 0;
+  margin: 100px 0;
 }
 .comingSoon section {
-	padding: 0 100px;
+  padding: 0 100px;
 }
 .comingSoon h1 {
-	font-size: 150%;
+  font-size: 150%;
 }
 .comingSoon #hugeText {
-	margin: 0 0 0 50px;
-	font-size: 800%;
+  margin: 0 0 0 50px;
+  font-size: 800%;
 }
 
 
@@ -59,19 +59,19 @@ a:hover {
 /* /index.html
 =========================================*/
 #sitetop h1 {
-	padding: 200px 0;
+  padding: 200px 0;
 }
 #sitetop h1 {
-	text-align:center;
+  text-align:center;
 }
 #sitetop #update {
-	width: 660px;
-	margin: -170px auto 0;
-	text-align: right;
-	color: #666666;
+  width: 660px;
+  margin: -170px auto 0;
+  text-align: right;
+  color: #666666;
 }
 #sitetop #pageContainer { /* override */
-	padding: 0;
+  padding: 0;
 }
 
 
@@ -81,35 +81,35 @@ a:hover {
 =========================================*/
 #sitemain #contents,
 #navPage #contents {
-	padding: 0 0 0 320px;
+  padding: 0 0 0 320px;
 }
 #sitemain #pageContainer {
-	padding: 80px 20px 10px 50px;
+  padding: 80px 20px 10px 50px;
 }
 #mainNav ul {
-	clear: both;
+  clear: both;
 }
 #mainNav li {
-	float: left;
-	width: 130px;
-	margin: 0 0 20px;
-	text-align: center;
+  float: left;
+  width: 130px;
+  margin: 0 0 20px;
+  text-align: center;
 }
 #mainNav li span {
-	display: block;
-	margin: 5px 0 0;
-	white-space: nowrap;
+  display: block;
+  margin: 5px 0 0;
+  white-space: nowrap;
 }
 #mainNav li.latestUpdate {
-	position: relative;
+  position: relative;
 }
 #mainNav li.latestUpdate:before {
-	content:"latest update";
-	position: absolute;
-	top: 118px;
-	right: 5px;
-	color: #bbbbbb;
-	font-size: 90%;
+  content:"latest update";
+  position: absolute;
+  top: 118px;
+  right: 5px;
+  color: #bbbbbb;
+  font-size: 90%;
 }
 
 
@@ -119,24 +119,26 @@ a:hover {
 =========================================*/
 /* for jquery.xrhyme.js */
 .x_wrapper {
-    overflow: hidden;
-    /*overflow-x: auto;*/
-    /*-webkit-overflow-scrolling: touch;*/
+  overflow: hidden;
+}
+.is-mobile .x_wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .x_container {
-    float: left;
-    width: 99999px;
-    display: block;
+  float: left;
+  width: 99999px;
+  display: block;
 }
 .x_item {
-    float: left;
-    display: inline;
-	margin: 0 300px 0 0;
-	max-height: 500px;
+  float: left;
+  display: inline;
+  margin: 0 300px 0 0;
+  max-height: 500px;
 }
 .x_item iframe {
-	border: none;
+  border: none;
 }
 
 
@@ -145,7 +147,7 @@ a:hover {
 /* /cumocumo/index.html
 =========================================*/
 #youtube #contents {
-	padding: 0 0 0 320px;
+  padding: 0 0 0 320px;
 }
 
 
@@ -153,10 +155,10 @@ a:hover {
 /* /about/index.html
 =========================================*/
 #about #contents {
-	padding: 0 0 0 320px;
+  padding: 0 0 0 320px;
 }
 #about #contents p {
-	margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 
 
@@ -165,17 +167,17 @@ a:hover {
 /* /link/index.html
 =========================================*/
 #link #contents {
-	padding: 0 0 0 320px;
+  padding: 0 0 0 320px;
 }
 #link #contents p {
-	margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 #link #contents a {
-	color: #333333;
-	text-decoration: none;
+  color: #333333;
+  text-decoration: none;
 }
 #link #contents a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 
@@ -188,60 +190,60 @@ a:hover {
 =========================================*/
 /* top */
 .mt0 {
-	margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 .mt5 {
-	margin-top: 5px !important;
+  margin-top: 5px !important;
 }
 .mt10 {
-	margin-top: 10px !important;
+  margin-top: 10px !important;
 }
 .mt15 {
-	margin-top: 15px !important;
+  margin-top: 15px !important;
 }
 .mt20 {
-	margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 .mt25 {
-	margin-top: 25px !important;
+  margin-top: 25px !important;
 }
 .mt30 {
-	margin-top: 30px !important;
+  margin-top: 30px !important;
 }
 .mt35 {
-	margin-top: 35px !important;
+  margin-top: 35px !important;
 }
 .mt40 {
-	margin-top: 40px !important;
+  margin-top: 40px !important;
 }
 .mt45 {
-	margin-top: 45px !important;
+  margin-top: 45px !important;
 }
 .mt50 {
-	margin-top: 50px !important;
+  margin-top: 50px !important;
 }
 
 /* botom */
 .mb5 {
-	margin-bottom: 5px !important;
+  margin-bottom: 5px !important;
 }
 .mb10 {
-	margin-bottom: 10px !important;
+  margin-bottom: 10px !important;
 }
 .mb15 {
-	margin-bottom: 15px !important;
+  margin-bottom: 15px !important;
 }
 .mb20 {
-	margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
 }
 .mb25 {
-	margin-bottom: 25px !important;
+  margin-bottom: 25px !important;
 }
 .mb30 {
-	margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
 }
 .mb40 {
-	margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
 }
 
 
@@ -255,13 +257,13 @@ a:hover {
 #pageContainer:after,
 #mainNav ul:after,
 #floatingContents:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-	font-size: 0;
-	line-height: 0;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
 }
 
 
